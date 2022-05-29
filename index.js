@@ -6,7 +6,7 @@ const firstUser = {
     gender : 'Female',
     age : '17',
     email : 'monica@dingdong.com',
-    favoriteColor : 'Yellow, Pink, White, Purple',
+    favoriteColor : ["Yellow", "Pink", "White", "Purple"],
     isHavePet : true,
     education :[
         {
@@ -24,14 +24,14 @@ const firstUser = {
             city : 'Tangerang'
         }
     ],
-    favoriteRestaurant : 'Bento, Sushi, Pancake, Eggy, Tempura, Padang, Tteok'
+    favoriteRestaurant : ["Bento", "Sushi", "Pancake", "Eggy", "Tempura", "Padang", "Tteok"]
 };
 const secondUser = {
     name : 'Wendy',
     gender : 'Male',
     age : '23',
     email : 'wendy@dingdong.com',
-    favoriteColor : 'Blue, Black, Grey',
+    favoriteColor : ["Blue", "Black", "Grey"],
     isHavePet : false,
     education :[
         {
@@ -54,7 +54,7 @@ const secondUser = {
             city :'Tangerang'
         }
     ],
-    favoriteRestaurant : 'Tempura, Bento, Sushi, Pancake, Padang, Katsu, Geprek, Eggy'
+    favoriteRestaurant : ["Tempura", "Bento", "Sushi", "Pancake", "Padang", "Katsu", "Geprek", "Eggy"]
 
 };
 
